@@ -8,6 +8,87 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#160e11;--bg2:#251318;--wine:#681e31;--gold:#d9b982;--ivory:#f7eee2;--text:#fff5e9;--muted:#d8c5bd}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:1.75}a{color:inherit}button{font:inherit}.shell{max-width:700px;margin:0 auto;overflow:hidden;box-shadow:0 0 100px #0008}h1,h2,h3,.script{font-family:'Cormorant Garamond',Georgia,serif;font-weight:400}h2{font-size:clamp(38px,8vw,59px);line-height:1.08;margin:0 0 18px}.eyebrow{text-transform:uppercase;letter-spacing:.33em;font-size:10px;color:var(--gold);font-weight:500}.hero{height:100svh;min-height:620px;position:relative;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center;padding:65px 24px 52px;background:#180e12}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#100a0ccd 0%,#1a101244 40%,#10090ce9 100%),url('assets/pareja.webp') center 34%/cover no-repeat;transform:scale(1.03);animation:zoom 15s ease-out both}.hero>*{position:relative}.hero h1{font-size:clamp(78px,17vw,132px);font-style:italic;letter-spacing:-.05em;line-height:.78;margin:16px 0 18px;text-shadow:0 5px 18px #0009}.hero h1 span{font-size:.48em;display:block;line-height:1.3;color:var(--gold)}.date{font-size:12px;letter-spacing:.26em;text-transform:uppercase}.thin-line{width:62px;height:1px;background:var(--gold);margin:25px auto}.quote{font-family:'Cormorant Garamond',serif;font-size:26px;font-style:italic}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 22px;border:1px solid var(--gold);background:linear-gradient(135deg,#69273b,#30151f);color:#fff4e8;text-decoration:none;text-transform:uppercase;letter-spacing:.13em;font-size:10px;font-weight:600;min-height:48px;border-radius:999px;cursor:pointer;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#783349}.btn.ghost{background:#ffffff0b}.hero .btn{min-width:205px}.down{display:block;margin-top:21px;color:var(--gold);font-size:24px;animation:bob 2.3s infinite}.section{padding:83px 27px;text-align:center;position:relative}.section p{max-width:500px;margin:15px auto;color:var(--muted)}.cream{background:#f8f0e5;color:#39262a}.cream p{color:#695858}.cream .eyebrow{color:#976c43}.flower{font-size:22px;color:var(--gold);letter-spacing:.2em}.intro{background:radial-gradient(ellipse at top,#45202a,var(--bg) 70%)}.intro .script{font-size:35px;font-style:italic;color:var(--gold)}.photowrap{position:relative;max-width:370px;margin:35px auto 0}.photowrap img{display:block;width:100%;max-height:500px;object-fit:cover;border-radius:180px 180px 8px 8px;border:5px solid #fff8e8;box-shadow:0 14px 36px #16070c52}.photowrap:after{content:"✧";position:absolute;right:-10px;top:15px;font-size:44px;color:var(--gold)}.countdown{background:linear-gradient(160deg,#2b141b,#150d10);padding:67px 23px}.timer{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:28px auto;max-width:470px}.timebox{border:1px solid #bc986b88;border-radius:5px;padding:14px 2px;background:#ffffff07}.timebox b{font-family:'Cormorant Garamond',serif;font-size:42px;line-height:1.1;font-weight:400;display:block;color:#f5d5a6}.timebox small{font-size:9px;letter-spacing:.08em;text-transform:uppercase}.details .icon{font-size:35px;color:#95633c}.event{padding:24px 0 18px}.event h3{font-size:35px;margin:8px 0}.event .when{font-size:17px;color:#422b30;font-weight:500}.event address{font-style:normal;margin:12px 0 23px;color:#6e5457}.separator{width:60px;height:1px;background:#b49370;margin:36px auto}.dress{background:#241218}.color-chips{display:flex;justify-content:center;gap:13px;margin:25px}.chip{width:37px;height:37px;border:2px solid #d9b982;border-radius:50%}.familyimg{width:min(100%,480px);border:3px solid #f3debd;border-radius:6px;display:block;margin:25px auto}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:27px 0 0}.gallery img{width:100%;height:240px;object-fit:cover;border-radius:3px}.gallery img:first-child{object-position:center 35%}.rsvp{background:radial-gradient(ellipse at 50% 0%,#60243b,#230e17 75%)}.action-group{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:26px 0}.gift{background:#f8f0e5;color:#39262a}.gift .eyebrow{color:#976c43}.gift p{color:#695858}.closing{background:linear-gradient(#150b0d77,#150b0de8),url('assets/callejon.webp') center/cover;min-height:490px;display:flex;flex-direction:column;justify-content:center}.closing h2{font-size:65px;font-style:italic;color:#f9ddb0}.closing .names{letter-spacing:.19em;text-transform:uppercase;color:var(--gold)}footer{text-align:center;padding:26px;background:#10090b;color:#b99f9d;font-size:11px}.fade{opacity:0;transform:translateY(25px);transition:opacity .9s ease,transform .9s ease}.fade.show{opacity:1;transform:none}.audio-link{display:inline-flex;gap:9px;align-items:center;color:#eed4b5;text-decoration:underline;text-underline-offset:5px}.audio-note{font-size:11px!important}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#fff6eb;color:#321a20;padding:10px 16px;border-radius:20px;z-index:20;box-shadow:0 4px 35px #0005;font-size:12px;display:none;text-align:center;max-width:90vw}@keyframes bob{50%{transform:translateY(8px)}}@keyframes zoom{from{transform:scale(1.14)}to{transform:scale(1.03)}}@media(min-width:700px){body{background:#0c080a}.section{padding-left:65px;padding-right:65px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.fade{opacity:1;transform:none}}
+
+/* MESA DE REGALOS */
+
+.mesa-regalos {
+  background: #171719;
+  padding: 90px 20px;
+  text-align: center;
+  color: #f7f0e5;
+}
+
+.regalos-contenido {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.regalos-icono {
+  font-size: 45px;
+  color: #d9b77e;
+}
+
+.regalos-subtitulo {
+  color: #d9b77e;
+  font-size: 12px;
+  letter-spacing: 4px;
+  margin: 20px 0;
+}
+
+.mesa-regalos h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(36px, 8vw, 54px);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.regalos-mensaje {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #e6dbcd;
+}
+
+.regalos-tarjeta {
+  background: #342528;
+  border: 1px solid #665044;
+  border-radius: 16px;
+  margin: 35px auto;
+  padding: 30px 20px;
+}
+
+.regalos-emoji {
+  font-size: 35px;
+}
+
+.regalos-tarjeta h3 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+
+<div class="regalos-tarjeta">
+  <span class="regalos-emoji">🎁</span>
+  <h3>Liverpool</h3>
+  <p>Valeria & Jonathan</p>
+
+  <a
+    href="https://mesaderegalos.liverpool.com.mx/gestiondeeventos/listaderegalos/60062027"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="boton-liverpool">
+    Ver mesa de regalos
+  </a>
+</div>
+
+}
+
+.regalos-firma {
+  color: #d9b77e;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 19px;
+}
+
 </style>
 </head>
 <body><main class="shell">
@@ -22,6 +103,40 @@
 <section class="section closing"><div class="fade"><div class="eyebrow">El mejor capítulo está por comenzar</div><h2>Gracias</h2><p>Por acompañarnos, por formar parte de nuestra historia y por compartir la alegría de este día.</p><div class="thin-line"></div><div class="names">Valeria &amp; Jonathan</div><p>14 · 11 · 2026</p></div></section>
 <footer>Hecho con amor ♡ · Valeria Rodríguez &amp; Jonathan Álvarez</footer>
 </main>
+
+<section class="mesa-regalos" id="regalos">
+  <div class="regalos-contenido">
+
+    <span class="regalos-icono">♡</span>
+
+    <p class="regalos-subtitulo">
+      UN DETALLE DE AMOR
+    </p>
+
+    <h2>Mesa de regalos</h2>
+
+    <p class="regalos-mensaje">
+      Su presencia es nuestro mejor regalo.
+      Pero si desean tener un detalle con nosotros,
+      lo recibiremos con mucho cariño.
+    </p>
+
+    <div class="regalos-tarjeta">
+      <span class="regalos-emoji">🎁</span>
+      <h3>Regalo a elección</h3>
+      <p>
+        Lo más importante es compartir
+        este día con ustedes.
+      </p>
+    </div>
+
+    <p class="regalos-firma">
+      Con amor, Valeria & Jonathan
+    </p>
+
+  </div>
+</section>
+
 <script>
 (()=>{'use strict';
 const weddingDate=Date.parse('2026-11-14T14:00:00-06:00');
